@@ -1,24 +1,13 @@
-# README
+名前： ruby on railsで宿泊検索LINE bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+LINE Botの開発を効率化するLINE Messaging API SDK
 
-Things you may want to cover:
+LINEメッセージをリッチにできるLINE Flex Message
 
-* Ruby version
+外部APIとの連携方法
 
-* System dependencies
+使用gem
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+gem 'line-bot-api' 
+gem 'dotenv-rails' 
+gem 'httpclient' 
